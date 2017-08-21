@@ -1,0 +1,86 @@
+/* Universal */
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header */
+header div {
+  border: solid 1px red;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+header h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+nav ul {
+  border: solid 1px green;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+/* Jumbo */
+.jumbo {
+  border: solid 1px black;
+  background-image: url("https://blog.usertesting.com/wp-content/uploads/2015/06/best-ux-infographics.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.jumbo h3 {
+  font-size: 2.5rem;
+  font-weight: 200;
+}
+
+.jumbo .indent {
+  margin-left: 5rem;
+}
+
+/* Process */
+.process .title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.process p {
+  width: 75%;
+  margin-left: 3rem;
+  line-height: 1.3;
+}
+
+/* Case studies */
+.studies .title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.studies .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* About */
+
+/* Contact */
