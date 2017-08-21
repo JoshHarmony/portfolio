@@ -82,5 +82,47 @@ nav ul {
 }
 
 /* About */
+.about .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about .title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about p {
+  width: 75%;
+  margin-left: 3rem;
+  line-height: 1.3;
+}
 
 /* Contact */
+.contact .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact .title {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact p {
+  width: 75%;
+  margin-left: 3rem;
+  line-height: 2;
+}
+
+/* Footer */
+footer {
+  border: solid 1px black;
+  height: 2rem;
+}
